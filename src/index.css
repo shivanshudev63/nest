@@ -148,6 +148,11 @@ text-decoration: none;
   color: rgb(255, 255, 255);
 }
 
+.cright-outer a{
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+}
+
 #foot-contact{
   background-color: #565387;
   color: white;

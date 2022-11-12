@@ -70,9 +70,9 @@ Mon – Sat: 10:00 am – 7:00 pm
 </div>
 </div>
                 </section>
-                <section className="col-md-12 d-flex flex-wrap pt-2 py-3 cright-outer border border-secondary">
-                <p className="col-md-12 cright">Narayanjee Educational Service Trust © 2022.</p>
-                <p className="col-md-12 cright"> All Rights Reserved. Developed by: Shivanshu Dev</p>
+                <section className="col-md-12 d-flex justify-content-center flex-wrap pt-2 py-3 cright-outer border border-secondary">
+                <a href="https://personal-website-shivanshudev63.vercel.app/" alt=""><p className="col-md-12 cright">Narayanjee Educational Service Trust © 2022.</p>
+                <p className="col-md-12 cright"> All Rights Reserved. Developed by: Shivanshu Dev</p></a>
                 </section>
             </footer>
         </>

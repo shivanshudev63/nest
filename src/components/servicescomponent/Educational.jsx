@@ -1,5 +1,4 @@
 import React from "react";
-import web from "../../images/bg_single_team-2.jpg";
 import "./Service.css";
 import ServiceMenu from "./ServiceMenu";
 import Comment from "./Comment";

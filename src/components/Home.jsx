@@ -350,44 +350,44 @@ function Home() {
         </div>
         <div className=" mt-5 d-flex justify-content-center">
           <div class="card mt-5" style={{ width: "18rem", height: "13rem" }}>
-            <img
+           <a href="/technologiespromotion"> <img
               class="card-img-top"
               src={web10}
               alt=""
               style={{ height: "13rem" }}
-            />
+            /></a>
           </div>
           <div class="card mt-5" style={{ width: "18rem", height: "13rem" }}>
-            <img
+           <a href="/agritech"> <img
               class="card-img-top"
               src={web11}
               alt=""
               style={{ height: "13rem" }}
-            />
+            /></a>
           </div>
           <div class="card mt-5" style={{ width: "18rem" }}>
-            <img
+           <a href="/tribalentrepreneurship"> <img
               class="card-img-top"
               src={web12}
               alt=""
               style={{ height: "13rem" }}
-            />
+            /></a>
           </div>
           <div class="card mt-5" style={{ width: "18rem" }}>
-            <img
+           <a href="/agritech"> <img
               class="card-img-top"
               src={web13}
               alt=""
               style={{ height: "13rem" }}
-            />
+            /></a>
           </div>
           <div class="card mt-5" style={{ width: "18rem" }}>
-            <img
+            <a href="/sportspromotion"><img
               class="card-img-top"
               src={web14}
               alt=""
               style={{ height: "13rem" }}
-            />
+            /></a>
           </div>
         </div>
       </section>
