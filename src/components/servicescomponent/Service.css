@@ -1,0 +1,19 @@
+.tablehover:hover{
+    background-color: #565387;
+    color: white;
+}
+
+
+#tablehover:visited{
+    background-color: #565387;
+}
+
+
+.servicemenu{
+    border-bottom: solid;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}

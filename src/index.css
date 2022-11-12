@@ -1,3 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;1,300&display=swap');
+*{
+  font-family: 'Mulish', sans-serif;
+}
+
+.navbar{
+  background-color: #fff;
+}
+
+.navbar-brand{
+  font-size:1.9rem;
+  color:#565387;
+}
+
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+
+.navbar a:hover{
+  color: #3498db;
+}
+
+.upper{
+  background-color: #565387;
+  color: white;
+}
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +46,155 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media(max-width:991px){
+  .navbar-brand{
+    font-size: 1.5rem;
+  }
+}
+
+
+.text-on-image {
+  position: absolute;
+  left: 10%;
+  bottom: 30%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+}
+
+.head-text{
+  position: relative;
+  padding-top: 5px;
+  margin-bottom: 100px;
+}
+
+#header{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#header h1{
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: #565387;
+}
+#header .brand-name{
+  color: #565387;
+}
+#header h2{
+  color: #484848;
+  font-size: 24px ;
+}
+#header .btn-get-started{
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 10px 30px;
+display: inline-block;
+border-radius: 50px;
+transition: 0.5s;
+color: #3498db;
+border: 2px solid #3498db;
+text-decoration: none;
+}
+
+#header .btn-get-started:hover{
+  background: #3498db;
+  color: #fff;
+}
+
+.font-weight-bold{
+  font-weight: bold;
+  color: #565387;
+}
+
+.card-position{
+  color: #494949;
+  font-weight: bold;
+}
+.call{
+  text-decoration: none;
+  color: rgb(109, 109, 109);
+}
+
+/*#self-link{
+  background-color: #565387;
+  color: rgb(197, 197, 197);
+  font-size: large;
+  border: 1px !important;
+  border-color: gray!important;
+}
+#self-link ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#upperfoot{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+*/
+.cright{ 
+  margin-bottom: -5px;
+}
+
+.cright-outer{
+  background-color: #565387;
+  color: rgb(255, 255, 255);
+}
+
+#foot-contact{
+  background-color: #565387;
+  color: white;
+}
+
+#foot-contact img{
+  padding-left: 25px;
+}
+
+.social-links i:hover{
+    color: #dc3545;
+  
+}
+
+.dropdown-menu li {
+  position: relative;
+  }
+  .dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -7px;
+  }
+  .dropdown-menu .dropdown-submenu-left {
+  right: 100%;
+  left: auto;
+  }
+  .dropdown-menu > li:hover > .dropdown-submenu {
+  display: block;
+  }
+
+  /*NavHome*/
+  #navimgtext1{
+    color: #FF9933;
+    
+    
+  }
+  #navimgtext3{
+    color: #138808
+  }
+
+  /* wrapper */
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  

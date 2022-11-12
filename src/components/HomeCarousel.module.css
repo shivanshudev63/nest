@@ -1,0 +1,13 @@
+.slick_slide {
+    height:25rem;
+    background-position: center;
+    background-size: cover;
+ }
+ 
+ .slick_slide img {
+    height:30rem;
+    width: 100% !important;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-bottom: 50px;
+ }
