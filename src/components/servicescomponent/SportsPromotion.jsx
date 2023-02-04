@@ -10,16 +10,16 @@ function SportsPromotion() {
       <section className=" d-flex align-items-center">
         <div className="container-fluid nav_bg">
           <div className="row">
-            <div className="col-12 px-0 mx-auto head-text">
+            <div className="col-12 px-0 mx-auto head-text servicetxt">
               <div
-                className="col-md-12  header-img "
+                className="col-md-12  header-img serviceimg"
                 style={{
                   boxShadow: "1px 2px 9px black",
                 }}
               >
                 <img src={web} className="img-fluid" alt="" />
               </div>
-              <div className="text-on-image">
+              <div className="text-on-image servicetxt">
                 <h3 className="px-1">
                   <strong>Sports Promotion</strong>
                 </h3>
@@ -35,11 +35,11 @@ function SportsPromotion() {
           </div>
         </div>
       </section>
-      <section className="d-flex justify-content-center mb-5">
+      <section className="d-flex justify-content-center mb-5 servicepadding servicewidth">
         <div className="col-10 row">
           {" "}
           <div className="col-9" style={{ boxShadow: "1px 2px 9px black" }}>
-            <div className="d-flex text-center px-5 mx-5 my-4 pt-5">
+            <div className="d-flex text-center px-5 mx-5 my-4 pt-5 servicepadding">
               <h3 style={{ color: "#565387" }}>
                 <strong>
                   TO DEVELOP AND PROMOTE SPORTS CULTURE ALL ACTIVITIES ARE
@@ -54,7 +54,7 @@ function SportsPromotion() {
                 style={{ width: "25%", boxShadow: "1px 2px 9px black" }}
               />
             </div>
-            <div className="d-flex justify-content-center pt-3">
+            <div className="d-flex justify-content-center pt-3 ">
               <h6>
                 <strong>MD TRUSTEE</strong>
               </h6>
@@ -64,14 +64,14 @@ function SportsPromotion() {
                 <strong>SPORTS GURU AMAR KUMAR SINHA</strong>
               </h6>
             </div>
-            <p className="p-5">
+            <p className="p-5 servicepadding">
               <strong>
                 NEST PROMOTES NATIONAL SPORTS AS SPORTS CULTURE OF ANY NATION
                 HELPS IN ALL ROUND DEVELOPMENT OF IT’S CITIZENS. HELPING EVERY
                 INDIVIDUAL;
               </strong>
             </p>
-            <div className="mx-5">
+            <div className="mx-5 servicepadding">
               <h4>
                 <strong>BENEFITS OF SPORTS CULTURE :</strong>
               </h4>
@@ -98,7 +98,7 @@ function SportsPromotion() {
                 used to train and to prove the capability to fight in the
                 military and also to work together as a team (military unit).
               </p>
-              <h5 className="pt-4">
+              <h5 className="pt-4 ">
                 <strong> {"->"} MILITARY SPORTS</strong>
               </h5>
               <p>
@@ -123,7 +123,7 @@ function SportsPromotion() {
                   style={{ width: "50%" }}
                 />
               </div>
-              <h5 className="pt-4">
+              <h5 className="pt-4 ">
                 <strong>
                   {" "}
                   {"->"} SUCCESSFUL AND DEVELOPED NATIONS HAVE STRONG SPORTS

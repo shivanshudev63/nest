@@ -1,0 +1,39 @@
+@media only screen and (max-width: 600px) {
+   
+    .header-img {
+      height: 10rem !important;
+    }
+    table {
+      width: 100%;
+    }
+    .head-text {
+      text-align: center;
+    }
+    h3 {
+      font-size: 1rem;
+    }
+    h1{
+        font-size: 15px;
+        padding-left: 0px !important;
+    }
+    p{
+        padding: 0px !important;
+    }
+    .paddedarea{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+    }
+   
+   .value{
+    padding: 0 !important;
+    margin: 0 !important;
+   }
+   .managingimage{
+    height: 300px !important;
+   }
+   h5{
+    width: 150px !important;
+   }
+  
+  }

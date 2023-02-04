@@ -10,16 +10,16 @@ function DefencePromotion() {
       <section className=" d-flex align-items-center">
         <div className="container-fluid nav_bg">
           <div className="row">
-            <div className="col-12 px-0 mx-auto head-text">
+            <div className="col-12 px-0 mx-auto head-text servicetxt">
               <div
-                className="col-md-12  header-img "
+                className="col-md-12  header-img serviceimg"
                 style={{
                   boxShadow: "1px 2px 9px black",
                 }}
               >
                 <img src={web} className="img-fluid" alt="" />
               </div>
-              <div className="text-on-image">
+              <div className="text-on-image servicetxt">
                 <h3 className="px-1">
                   <strong>Defence Promotion</strong>
                 </h3>
@@ -35,7 +35,7 @@ function DefencePromotion() {
           </div>
         </div>
       </section>
-      <section className="d-flex justify-content-center mb-5">
+      <section className="d-flex justify-content-center mb-5 servicepadding servicewidth">
         <div className="col-10 row">
           {" "}
           <div className="col-9" style={{ boxShadow: "1px 2px 9px black" }}>
@@ -71,7 +71,7 @@ function DefencePromotion() {
               </ul>
             </div>
             <div
-              className="px-5 mx-2 pt-3 mt-5 d-flex justify-content-center"
+              className="px-5 mx-2 pt-3 mt-5 d-flex justify-content-center servicepadding"
               style={{ color: "white", background: "#565387", height: "50px" }}
             >
               <h5>
@@ -79,12 +79,12 @@ function DefencePromotion() {
                 DEFENCE
               </h5>
             </div>
-            <div className="mx-2 px-5 pt-5">
+            <div className="mx-2 px-5 pt-5 servicepadding">
               <h5>
                 <strong>How many times India was invaded?</strong>
               </h5>
             </div>
-            <div className="mx-2 px-5 ">
+            <div className="mx-2 px-5 servicepadding">
               <p>
                 India may just be the most invaded country of all time.
                 Foreigners have invaded the state over 200 times. The first
@@ -93,19 +93,19 @@ function DefencePromotion() {
                 finally give way for an independent India.
               </p>
             </div>
-            <div className="mx-2 px-5 pt-5" style={{ color: "#565387" }}>
+            <div className="mx-2 px-5 pt-5 servicepadding" style={{ color: "#565387" }}>
               <h5>
                 <strong>ALEXANDER THE GREAT..</strong>
               </h5>
             </div>
-            <div className="d-flex justify-content-center mt-4">
+            <div className="d-flex justify-content-center mt-4 ">
               <img
                 src="./images/service75.png"
                 alt=""
                 style={{ width: "50%" }}
               />
             </div>
-            <div className="mx-2 px-5 mt-4">
+            <div className="mx-2 px-5 mt-4 servicepadding">
               <p>
                 Alexander the Great was the first person to invade India when he
                 successfully captured the Paurava Kingdom in the Western Punjab
@@ -118,12 +118,12 @@ function DefencePromotion() {
                 a large army.
               </p>
             </div>
-            <div className="mx-2 px-5 pt-5" style={{ color: "#565387" }}>
+            <div className="mx-2 px-5 pt-5 servicepadding" style={{ color: "#565387" }}>
               <h5>
                 <strong>THE MONGALS</strong>
               </h5>
             </div>
-            <div className="mx-2 px-5 mt-1">
+            <div className="mx-2 px-5 mt-1 servicepadding">
               <p>
                 Between 1221 and 1327, the Mongol Empire made several incursions
                 into India. The Mongols first appeared in the Indus River in
@@ -144,7 +144,7 @@ function DefencePromotion() {
                 style={{ width: "50%" }}
               />
             </div>
-            <div className="mx-2 px-5 mt-4">
+            <div className="mx-2 px-5 mt-4 servicepadding">
               <strong>
                 Invasions of Arab / TURKS / PERSIAN / MOGOUL EMPIRE AFTER the
                 Eleventh Century:
@@ -168,12 +168,12 @@ function DefencePromotion() {
                 style={{ width: "50%" }}
               />
             </div>
-            <div className="mx-2 px-5 pt-5" style={{ color: "#565387" }}>
+            <div className="mx-2 px-5 pt-5 servicepadding" style={{ color: "#565387" }}>
               <h5>
                 <strong>COLONIAL INDIA</strong>
               </h5>
             </div>
-            <div className="mx-2 px-5 mt-1">
+            <div className="mx-2 px-5 mt-1 servicepadding">
               <p>
                 The Romans were the first Europeans to reach India, but the
                 collapse of the Empire led to the rise of other empires in the
@@ -198,7 +198,7 @@ function DefencePromotion() {
                 style={{ width: "50%" }}
               />
             </div>
-            <div className="px-5  mt-5 ">
+            <div className="px-5  mt-5 servicepadding">
               <h4 style={{ color: "#565387" }}>
                 <strong>IMPACT OF SUCH INVASIONS</strong>
               </h4>
@@ -246,7 +246,7 @@ function DefencePromotion() {
                 Index report lists it as the fourth most-powerful military.
               </p>
             </div>
-            <div className="mx-2 px-5 pt-5" style={{ color: "#565387" }}>
+            <div className="mx-2 px-5 pt-5 servicepadding" style={{ color: "#565387" }}>
               <h4>
                 <strong>INDIAN AIRFORCE</strong>
               </h4>
@@ -271,7 +271,7 @@ function DefencePromotion() {
                 className="mx-1"
               />
             </div>
-            <div className="mx-2 px-5 mt-1">
+            <div className="mx-2 px-5 mt-1 servicepadding">
               <p>
                 Historically, the IAF has generally relied on Soviet, British,
                 Israeli and French military craft and technology to support its
@@ -288,7 +288,7 @@ function DefencePromotion() {
                 standard.
               </p>
             </div>
-            <div className="mx-2 px-5 pt-5" style={{ color: "#565387" }}>
+            <div className="mx-2 px-5 pt-5 servicepadding" style={{ color: "#565387" }}>
               <h4>
                 <strong>INDIAN NAVY</strong>
               </h4>
@@ -301,7 +301,7 @@ function DefencePromotion() {
                 className="mx-1"
               />
             </div>
-            <div className="mx-2 px-5 mt-1">
+            <div className="mx-2 px-5 mt-1 servicepadding">
               <p>
                 The Indian Navy is the naval branch of the Indian armed forces.
                 With 58,350 men and women, including 7,000 personnel of the
@@ -316,7 +316,7 @@ function DefencePromotion() {
                 fleet tankers and various auxiliary vessels.
               </p>
             </div>
-            <div className="mx-2 px-5 pt-5" style={{ color: "#565387" }}>
+            <div className="mx-2 px-5 pt-5 servicepadding" style={{ color: "#565387" }}>
               <h4>
                 <strong>
                   FUTURISTIC WEAPONS OF INDIA THROUGH THE EFFORTS THROUGH THE
@@ -325,7 +325,7 @@ function DefencePromotion() {
                 </strong>
               </h4>
             </div>
-            <div className="mx-2 px-5 pt-5">
+            <div className="mx-2 px-5 pt-5 servicepadding">
               <h5>
                 <strong>1. HAL AMCA</strong>
               </h5>
@@ -357,7 +357,7 @@ function DefencePromotion() {
                 className="mx-1"
               />
             </div>
-            <div className="mx-2 px-5 pt-5">
+            <div className="mx-2 px-5 pt-5 servicepadding">
               <h5>
                 <strong>2. TEJAS MARK II</strong>
               </h5>
@@ -386,7 +386,7 @@ function DefencePromotion() {
                 className="mx-1"
               />
             </div>
-            <div className="mx-2 px-5 pt-5">
+            <div className="mx-2 px-5 pt-5 servicepadding">
               <h5>
                 <strong>3. INS VISHAL</strong>
               </h5>
@@ -416,7 +416,7 @@ function DefencePromotion() {
                 className="mx-1"
               />
             </div>
-            <div className="mx-2 px-5 pt-5">
+            <div className="mx-2 px-5 pt-5 servicepadding">
               <h5>
                 <strong>4. INS VIKRANT (IAC-1)</strong>
               </h5>
@@ -442,7 +442,7 @@ function DefencePromotion() {
                 className="mx-1"
               />
             </div>
-            <div className="mx-2 px-5 pt-5">
+            <div className="mx-2 px-5 pt-5 servicepadding">
               <h5>
                 <strong>5. AGNI-VI MISSILE</strong>
               </h5>
@@ -461,7 +461,7 @@ function DefencePromotion() {
                 className="mx-1"
               />
             </div>
-            <div className="mx-2 px-5 pt-5">
+            <div className="mx-2 px-5 pt-5 servicepadding">
               <h5>
                 <strong>6. SURYA MISSILE</strong>
               </h5>
@@ -488,7 +488,7 @@ function DefencePromotion() {
                 className="mx-1"
               />
             </div>
-            <div className="mx-2 px-5 pt-5">
+            <div className="mx-2 px-5 pt-5 servicepadding">
               <h5>
                 <strong>7. BRAHMOS II MISSILE</strong>
               </h5>
@@ -521,7 +521,7 @@ function DefencePromotion() {
               className="mx-5 mt-5"
               style={{ background: "lightgrey", height: "3px" }}
             ></div>
-            <div className="mx-2 px-5 pt-5">
+            <div className="mx-2 px-5 pt-5 servicepadding">
               <h4>
                 <strong>K 5 MISSILES :-</strong>
               </h4>
@@ -539,7 +539,7 @@ function DefencePromotion() {
                 className="mx-1"
               />
             </div>
-            <div className="mx-2 px-5 pt-5">
+            <div className="mx-2 px-5 pt-5 servicepadding">
               <h4>
                 <strong>INDIAN BALLISTIC MISSILE DEFENCE SYSTEM :-</strong>
               </h4>
@@ -559,7 +559,7 @@ function DefencePromotion() {
                 className="mx-1"
               />
             </div>
-            <div className="mx-2 px-5 pt-5">
+            <div className="mx-2 px-5 pt-5 servicepadding">
               <h4>
                 <strong>NAAG ANTI TANK MISSILE :-</strong>
               </h4>
@@ -591,7 +591,7 @@ function DefencePromotion() {
                 className="mx-1"
               />
             </div>
-            <div className="mx-2 px-5 pt-5">
+            <div className="mx-2 px-5 pt-5 servicepadding">
               <h4>
                 <strong>RUSTOM UAV</strong>
               </h4>
@@ -614,7 +614,7 @@ function DefencePromotion() {
                 className="mx-1"
               />
             </div>
-            <div className="mx-2 px-5 pt-5">
+            <div className="mx-2 px-5 pt-5 servicepadding">
               <h4>
                 <strong>GHATAK UAV</strong>
               </h4>
@@ -636,7 +636,7 @@ function DefencePromotion() {
                 className="mx-1"
               />
             </div>
-            <div className="mx-2 px-5 pt-5">
+            <div className="mx-2 px-5 pt-5 servicepadding">
               <h4>
                 <strong>INS ARIGHAT</strong>
               </h4>
@@ -656,7 +656,7 @@ function DefencePromotion() {
                 className="mx-1"
               />
             </div>
-            <div className="mx-2 px-5 pt-5">
+            <div className="mx-2 px-5 pt-5 servicepadding">
               <h4>
                 <strong>
                   INS VAGSHEER THE SIXTH AND FINAL CLASS SUBMARINE UNDER PROJECT
@@ -672,7 +672,7 @@ function DefencePromotion() {
                 className="mx-1"
               />
             </div>
-            <div className="mx-2 px-5 pt-5">
+            <div className="mx-2 px-5 pt-5 servicepadding">
               <h4>
                 <strong>
                   ELECTRONIC WARFARE NETWORK CENTRIC WARFARE CAPABILITY
@@ -694,7 +694,7 @@ function DefencePromotion() {
                 className="mx-1"
               />
             </div>
-            <div className="mx-2 px-5 pt-5">
+            <div className="mx-2 px-5 pt-5 servicepadding">
               <h4>
                 <strong>INDIAN ARMED HELICOPTERS</strong>
               </h4>
@@ -720,7 +720,7 @@ function DefencePromotion() {
                 className="mx-1"
               />
             </div>
-            <div className="mx-2 px-5 pt-5">
+            <div className="mx-2 px-5 pt-5 servicepadding">
               <h4>
                 <strong>INDIAN TANK PROJECTS MBT ARJUM MK 2</strong>
               </h4>
@@ -746,7 +746,7 @@ function DefencePromotion() {
                 className="mx-1"
               />
             </div>
-            <div className="mx-2 px-5 pt-5">
+            <div className="mx-2 px-5 pt-5 servicepadding">
               <h4>
                 <strong>ANTI SATELLITE WEAPON / MISSION SHAKTI</strong>
               </h4>
@@ -766,7 +766,7 @@ function DefencePromotion() {
                 className="mx-1"
               />
             </div>
-            <div className="mx-2 px-5 pt-5">
+            <div className="mx-2 px-5 pt-5 servicepadding">
               <h4>
                 <strong>DIRECT ENERGY WEAPONS</strong>
               </h4>
@@ -785,7 +785,7 @@ function DefencePromotion() {
                 className="mx-1"
               />
             </div>
-            <div className="mx-2 px-5 pt-5">
+            <div className="mx-2 px-5 pt-5 servicepadding">
               <h4>
                 <strong>WEAPONS OF MASS DESTRUCTION</strong>
               </h4>
@@ -832,7 +832,7 @@ function DefencePromotion() {
                 className="mx-1"
               />
             </div>
-            <div className="mx-2 px-5 pt-5">
+            <div className="mx-2 px-5 pt-5 servicepadding">
               <h4>
                 <strong>
                   LIST OF TOP IMPORTED WEAPONS WHICH IS THE CORE OF OUR CURRENT
@@ -847,7 +847,7 @@ function DefencePromotion() {
                 <li>SUKHOI 30 MK I</li>
               </ul>
             </div>
-            <div className="mx-2 px-5 pt-5">
+            <div className="mx-2 px-5 pt-5 servicepadding">
               <h4>
                 <strong>RECRUITMENT AND TRAINING</strong>
               </h4>

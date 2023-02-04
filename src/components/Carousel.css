@@ -1,0 +1,12 @@
+
+
+@media(max-width: 481px)
+
+ {
+    h5{
+        margin-left: 5px;
+        width: 100px !important ;
+        font-size: x-small;
+    }
+  
+ }

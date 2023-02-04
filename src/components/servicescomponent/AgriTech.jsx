@@ -10,16 +10,16 @@ function AgriTech() {
       <section className=" d-flex align-items-center">
         <div className="container-fluid nav_bg">
           <div className="row">
-            <div className="col-12 px-0 mx-auto head-text">
+            <div className="col-12 px-0 mx-auto head-text servicetxt">
               <div
-                className="col-md-12  header-img "
+                className="col-md-12  header-img serviceimg"
                 style={{
                   boxShadow: "1px 2px 9px black",
                 }}
               >
                 <img src={web} className="img-fluid" alt="" />
               </div>
-              <div className="text-on-image">
+              <div className="text-on-image servicetxt">
                 <h3 className="px-1">
                   <strong>AGRITECH</strong>
                 </h3>
@@ -35,18 +35,18 @@ function AgriTech() {
           </div>
         </div>
       </section>
-      <section className="d-flex justify-content-center mb-5">
+      <section className="d-flex justify-content-center mb-5 servicepadding servicewidth">
         <div className="col-10 row">
           {" "}
           <div className="col-9" style={{ boxShadow: "1px 2px 9px black" }}>
-            <div className="d-flex justify-content-center mt-5">
+            <div className="d-flex justify-content-center mt-5 ">
               <img
                 src="./images/service30.jpg"
                 alt=""
                 style={{ width: "50%", boxShadow: "1px 2px 9px black" }}
               />
             </div>
-            <div className="px-5 mx-5 mt-5">
+            <div className="px-5 mx-5 mt-5 servicepadding">
               <p>
                 NEST IS PROMOTING AGRITECH among Farmers To Bring REVOLUTIONARY
                 Changes, Possible through Modern Technological and Commercial
@@ -59,7 +59,7 @@ function AgriTech() {
                 agritech sector, which support the overall value chain are:
               </p>{" "}
             </div>
-            <ul className=" px-5  mx-5">
+            <ul className=" px-5  mx-5 servicepadding">
               <li className="py-2">
                 <strong>Market linkage – farm inputs:</strong> Digital
                 marketplace and physical infrastructure to link farmers to
@@ -111,7 +111,7 @@ function AgriTech() {
                 platform for agronomic, pricing, market information.
               </li>
             </ul>
-            <div className="d-flex justify-content-center  px-5 my-4 mt-5">
+            <div className="d-flex justify-content-center  px-5 my-4 mt-5 servicepadding">
               <h4 style={{ color: "#565387" }}>
                 <strong>OVERVIEW OF AGRITECH IN INDIA</strong>
               </h4>
@@ -123,7 +123,7 @@ function AgriTech() {
                 style={{ width: "50%", boxShadow: "1px 2px 9px black" }}
               />
             </div>
-            <div className="px-5 mx-5 mt-5">
+            <div className="px-5 mx-5 mt-5 servicepadding">
               <p>
                 The overall agritech ecosystem witnessed a revenue growth of
                 approximately 85 percent during FY 2019-20. An Ernst & Young
@@ -133,14 +133,14 @@ function AgriTech() {
                 billion by 2025.
               </p>{" "}
             </div>
-            <div className=" px-5 mx-5 my-4 mt-5">
+            <div className=" px-5 mx-5 my-4 mt-5 servicepadding">
               <h5 style={{ color: "#565387" }}>
                 <strong>
                   INPUT MARKET LINKAGE AND FARMING AS A SERVICE (FAAS) SEGMENT
                 </strong>
               </h5>
             </div>
-            <div className="px-5 mx-5 ">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 This segment is fast picking up pace in India with prominent
                 players being AgroStar and BigHaat, which offer missed
@@ -153,7 +153,7 @@ function AgriTech() {
                 farming-as-a-service.{" "}
               </p>{" "}
             </div>
-            <div className=" px-5 mx-5 my-4 mt-5">
+            <div className=" px-5 mx-5 my-4 mt-5 servicepadding">
               <h5 style={{ color: "#565387" }}>
                 <strong>
                   SUPPLY CHAIN, POST-HARVEST MANAGEMENT AND OUTPUT MARKET
@@ -161,7 +161,7 @@ function AgriTech() {
                 </strong>
               </h5>
             </div>
-            <div className="px-5 mx-5">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 This segment is the largest contributor to the revenue of the
                 agritech industry in FY 2020 and also witnessed maximum growth
@@ -173,14 +173,14 @@ function AgriTech() {
                 intervention of agritech players in the segment.
               </p>{" "}
             </div>
-            <div className=" px-5 mx-5 my-4 mt-5">
+            <div className=" px-5 mx-5 my-4 mt-5 servicepadding">
               <h5 style={{ color: "#565387" }}>
                 <strong>
                   PRECISION FARMING, ANALYTICS, AND ADVISORY SEGMENT
                 </strong>
               </h5>
             </div>
-            <div className="px-5 mx-5">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 This segment offering precision farming solutions and advisory
                 services witnessed a growth of approximately 17 percent during
@@ -196,7 +196,7 @@ function AgriTech() {
                 India dealing in these services.
               </p>{" "}
             </div>
-            <div className="d-flex justify-content-center px-5 mx-5 my-4 mt-5">
+            <div className="d-flex justify-content-center px-5 mx-5 my-4 mt-5 servicepadding">
               <h5 style={{ color: "#565387" }}>
                 <strong>AGRI FINTECH</strong>
               </h5>
@@ -209,7 +209,7 @@ function AgriTech() {
               />
             </div>
 
-            <div className="px-5 m-5">
+            <div className="px-5 m-5 servicepadding">
               <p className=" d-flex text-center">
                 This segment comprises of agritech startups offering solutions,
                 such as credit, insurance, warehouse receipt financing, trade
@@ -225,18 +225,18 @@ function AgriTech() {
               </p>{" "}
             </div>
 
-            <div className="d-flex justify-content-center px-5 ">
+            <div className="d-flex justify-content-center px-5 servicepadding">
               <h4 style={{ color: "#565387" }}>
                 <strong>TECHNOLOGY USED IN AGRITECH</strong>
               </h4>
             </div>
 
-            <div className="d-flex justify-content-center px-5 mx-5 my-4 mt-5">
+            <div className="d-flex justify-content-center px-5 mx-5 my-4 mt-5 servicepadding">
               <h5 style={{ color: "#565387" }}>
                 <strong>Smart Farming</strong>
               </h5>
             </div>
-            <div className=" d-flex text-center px-5 mx-5">
+            <div className=" d-flex text-center px-5 mx-5 servicepadding">
               <p>
                 Smart farming has different categories. It’s used after doing a
                 thorough research and inspection of previous conditions. Weather
@@ -249,7 +249,7 @@ function AgriTech() {
                 a sustainable way.
               </p>{" "}
             </div>
-            <div className="d-flex justify-content-center px-5 mx-5 my-2">
+            <div className="d-flex justify-content-center px-5 mx-5 my-2 servicepadding">
               <h5>
                 <strong>Drones and Satellites</strong>
               </h5>
@@ -262,7 +262,7 @@ function AgriTech() {
               />
             </div>
 
-            <div className=" d-flex text-center px-5 mx-5 mt-4">
+            <div className=" d-flex text-center px-5 mx-5 mt-4 servicepadding">
               <p>
                 Would unmanned aerial vehicles or drones be hovering over
                 millions of hectares of farmlands in India? Would they become as
@@ -272,7 +272,7 @@ function AgriTech() {
                 called kisan drones.
               </p>{" "}
             </div>
-            <div className=" d-flex text-center px-5 mx-5">
+            <div className=" d-flex text-center px-5 mx-5 servicepadding">
               <p>
                 Using drones and satellites allows a farmer to cover large
                 tracts of land quite easily and quickly. Drones and satellites
@@ -284,12 +284,12 @@ function AgriTech() {
                 security.
               </p>{" "}
             </div>
-            <div className="d-flex justify-content-center px-5 mx-5 my-4">
+            <div className="d-flex justify-content-center px-5 mx-5 my-4 servicepadding">
               <h5 style={{ color: "#565387" }}>
                 <strong>IoT Sensors</strong>
               </h5>
             </div>
-            <div className=" d-flex text-center px-5 mx-5">
+            <div className=" d-flex text-center px-5 mx-5 servicepadding">
               <p>
                 Agritech develops internet of things (IoT) based software that
                 can track and provide accurate information about the weather,
@@ -297,12 +297,12 @@ function AgriTech() {
                 farmers’ time and resources is now available instantaneously.
               </p>{" "}
             </div>
-            <div className="d-flex justify-content-center px-5 mx-5 my-4 ">
+            <div className="d-flex justify-content-center px-5 mx-5 my-4 servicepadding">
               <h5 style={{ color: "#565387" }}>
                 <strong>Blockchain</strong>
               </h5>
             </div>
-            <div className=" d-flex text-center px-5 mx-5">
+            <div className=" d-flex text-center px-5 mx-5 servicepadding">
               <p>
                 You may be wondering how blockchain technology impacts the
                 agriculture sector. Well, blockchain connects farmers with
@@ -311,12 +311,12 @@ function AgriTech() {
                 middlemen.
               </p>{" "}
             </div>
-            <div className="d-flex justify-content-center px-5 mx-5 my-4 ">
+            <div className="d-flex justify-content-center px-5 mx-5 my-4 servicepadding">
               <h5 style={{ color: "#565387" }}>
                 <strong>Vertical Farming</strong>
               </h5>
             </div>
-            <div className=" d-flex text-center px-5 mx-5">
+            <div className=" d-flex text-center px-5 mx-5 servicepadding">
               <p>
                 As the name suggests, vertical farming involves crop production
                 using vertically stacked layers. With the application of LED
@@ -324,12 +324,12 @@ function AgriTech() {
                 night.
               </p>{" "}
             </div>
-            <div className="d-flex justify-content-center px-5 mx-5 my-4 ">
+            <div className="d-flex justify-content-center px-5 mx-5 my-4 servicepadding">
               <h5 style={{ color: "#565387" }}>
                 <strong>Automation</strong>
               </h5>
             </div>
-            <div className=" d-flex text-center px-5 mx-5 mt-0 my-5">
+            <div className=" d-flex text-center px-5 mx-5 mt-0 my-5 servicepadding">
               <p>
                 Automation replaces manual labour with the help of software and
                 hardware solutions to increase speed and reduce loss in quality.

@@ -17,7 +17,7 @@ function SriNarayanJee() {
                 }}
               ></div>
               <div className="text-on-image">
-                <h3 className="px-1">
+                <h3 className="px-1 ">
                   <strong>SRI NARAYAN JEE</strong>
                 </h3>
                 <p>
@@ -33,7 +33,7 @@ function SriNarayanJee() {
       </section>
       <section className="d-flex justify-content-center mb-5">
       <div className="col-10 p-5"  style={{ boxShadow: "1px 2px 9px black", fontWeight:"bolder" }}>
-      <div className="d-flex justify-content-center p-5" style={{color:"#565387"}}><h1><strong>SRI NARAYAN JEE PROFILE</strong></h1></div>
+      <div className="d-flex justify-content-center p-5 paddedarea" style={{color:"#565387"}}><h1><strong>SRI NARAYAN JEE PROFILE</strong></h1></div>
       <span>Sri Narayan Jee Started Organization Adim Jati Sewa Mandal.</span>
         <p>
           Adim Jati Sewa Mandal is one of oldest organization of undivided

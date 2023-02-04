@@ -8,16 +8,19 @@ const Sdata = [
         imgsrc: member2,
         title: "Shri Amar Kumar Sinha",
         position: "Managing Trustee",
+        link:"/managingtrustee"
     },
     {
         imgsrc: member3,
         title: "Shri Vikas Kumar Sinha",
         position: "Joint Managing Trustee",
+        link:"/jointmanagingtrustee"
     }  ,
     {
         imgsrc: member1,
         title:"Shri Ankush Kumar Sinha",
         position: "Trustee / Project Head",
+        link:""
     }
 ];
 

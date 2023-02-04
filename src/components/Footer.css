@@ -1,0 +1,25 @@
+@media only screen and (max-width: 600px) {
+   .fscreen{
+    font-size: small;
+   }
+   .fscreen .mx-auto{
+    font-size: x-small;
+    width: 200px !important;
+   }
+   .f1screen{
+    padding: 10px !important;
+    font-size: large;
+   }
+   .f2screen{
+    display: block !important;
+   }
+   .f2screen button{
+    font-size: x-small !important;
+    width: 70px !important;
+    margin-right:30px !important;
+   }
+   .f2screen input{
+    width:150px ;
+    margin-left: 5px;
+   }
+}

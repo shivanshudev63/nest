@@ -2,6 +2,8 @@
     height:25rem;
     background-position: center;
     background-size: cover;
+    
+    
  }
  
  .slick_slide img {
@@ -10,4 +12,34 @@
     padding-left: 5rem;
     padding-right: 5rem;
     margin-bottom: 50px;
+ }
+
+ @media screen and (max-width: 600px)
+
+ {
+  .slick_slide img{
+   height: 200px;
+   padding-left: 0rem;
+   padding-right: 0rem;
+   font-size: x-small;
+  }
+  .slick_slide{
+   height:5rem;
+  }
+  
+  .slick_slide h3{
+   font-size: small;
+   margin-bottom: 1px;
+   margin-top: 1px;
+  }
+  .slick_slide h2{
+   font-size: small;
+   margin-bottom: 1px;
+   margin-top: 1px;
+  }
+  .slick_slide h1{
+   font-size: small;
+   margin-bottom: 1px;
+   margin-top: 1px;
+  }
  }

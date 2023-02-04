@@ -7,3 +7,58 @@
 #nav-dropdown:focus{
     color:black;
 }
+
+
+  /* media queries */
+
+  @media screen and (min-width: 600px)
+
+  {
+    .mscreen{
+        display: none !important;
+      }
+  
+  
+  }
+
+  @media only screen and (max-width: 600px) {
+   
+   
+    .navbar-nav {
+        display: flex !important;
+        justify-content: center !important;
+font-size: x-small;
+    }
+    .items{
+display: flex !important;
+justify-content: center !important;
+        height: 20px !important;
+    }
+    .items h5{
+width: auto !important;
+    }
+   .name{
+    padding-right: 45px;
+   }
+
+    .navbar-nav h5{
+        font-size: small;
+    }
+    .second-layer img{
+        height: 50px;
+    }
+    #nav-dropdown{
+        font-size: small;
+    }
+    .nav-link{
+        font-size: small !important;
+    }
+    .nav-item .nav-dropdown {
+        display: block;
+      }
+      .mscreen{
+        display: block;
+      }
+    
+  }
+ 

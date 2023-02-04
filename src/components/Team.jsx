@@ -9,11 +9,11 @@ function Team() {
       <section className="mb-5 d-flex align-items-center">
         <div className="container-fluid nav_bg">
           <div className="row">
-            <div className="col-12 px-0 mx-auto head-text">
-              <div className="col-md-12  header-img ">
+            <div className="col-12 px-0 mx-auto head-text servicetxt">
+              <div className="col-md-12  header-img serviceimg">
                 <img src={web} className="img-fluid" alt="" />
               </div>
-              <div className="text-on-image">
+              <div className="text-on-image servicetxt">
                 <h3>
                   <strong> Our Team</strong>
                 </h3>
@@ -38,6 +38,7 @@ function Team() {
                             imgsrc={val.imgsrc}
                             title={val.title}
                             position={val.position}
+                            link={val.link}
                         />
                     })
                 }

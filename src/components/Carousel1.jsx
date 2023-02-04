@@ -5,7 +5,6 @@ import "slick-carousel/slick/slick-theme.css";
 import homedata from './CarouselData';
 import CarouselCard from "./CarouselCard";
 
-
 export default class Carousel1 extends Component {
     render() {
       const settings = {
@@ -16,7 +15,21 @@ export default class Carousel1 extends Component {
         autoplay: true,
         speed: 2000,
         autoplaySpeed: 3500,
-        cssEase: "linear"
+        cssEase: "linear", 
+        responsive: [
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 2,
+            }
+          },
+          {
+            breakpoint: 576,
+            settings: {
+              slidesToShow: 1,
+            }
+          }
+        ]
       };
       return (
         <div>

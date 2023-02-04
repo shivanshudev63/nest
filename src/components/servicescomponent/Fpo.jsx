@@ -10,16 +10,16 @@ function Fpo() {
       <section className=" d-flex align-items-center">
         <div className="container-fluid nav_bg">
           <div className="row">
-            <div className="col-12 px-0 mx-auto head-text">
+            <div className="col-12 px-0 mx-auto head-text servicetxt">
               <div
-                className="col-md-12  header-img "
+                className="col-md-12  header-img serviceimg"
                 style={{
                   boxShadow: "1px 2px 9px black",
                 }}
               >
                 <img src={web} className="img-fluid" alt="" />
               </div>
-              <div className="text-on-image">
+              <div className="text-on-image servicetxt">
                 <h3 className="px-1">
                   <strong>Fpo</strong>
                 </h3>
@@ -35,11 +35,11 @@ function Fpo() {
           </div>
         </div>
       </section>
-      <section className="d-flex justify-content-center mb-5">
+      <section className="d-flex justify-content-center mb-5 servicepadding servicewidth">
         <div className="col-10 row">
           {" "}
           <div className="col-9" style={{ boxShadow: "1px 2px 9px black" }}>
-            <div className="d-flex text-center px-5 mx-5 my-4 pt-5">
+            <div className="d-flex text-center px-5 mx-5 my-4 pt-5 servicepadding">
               <h3 style={{ color: "#565387" }}>
                 <strong>
                   NEST IS COMMITTED TO BUILD MAXIMUM NUMBER OF FPO TO HELP
@@ -47,19 +47,19 @@ function Fpo() {
                 </strong>
               </h3>
             </div>
-            <div className="d-flex justify-content-center mt-5">
+            <div className="d-flex justify-content-center mt-5 servicepadding">
               <img
                 src="./images/service334.jpg"
                 alt=""
                 style={{ width: "50%" }}
               />
             </div>
-            <div className="d-flex justify-content-center px-5 mx-5 mt-5 ">
+            <div className="d-flex justify-content-center px-5 mx-5 mt-5 servicepadding">
               <h4 style={{ color: "#565387" }}>
                 <strong>BRIEF OVERVIEW OF FPOS :</strong>
               </h4>
             </div>
-            <div className="d-flex justify-content-center mt-3">
+            <div className="d-flex justify-content-center mt-3 servicepadding">
               <img
                 src="./images/service35.jpg"
                 alt=""
@@ -67,8 +67,8 @@ function Fpo() {
               />
             </div>
 
-            <ul className=" px-5  mx-5">
-              <li className="pt-4 py-2">
+            <ul className=" px-5  mx-5 servicepadding">
+              <li className="pt-4 py-2 ">
                 FPOs are voluntary organizations controlled by their
                 farmer-members who actively participate in setting their
                 policies and making decisions.
@@ -95,77 +95,77 @@ function Fpo() {
               </li>
             </ul>
 
-            <div className="d-flex justify-content-center  px-5 my-4 mt-5">
+            <div className="d-flex justify-content-center  px-5 my-4 mt-5 servicepadding">
               <h4 style={{ color: "#565387" }}>
                 <strong>BENEFITS EMANATING FROM FPO</strong>
               </h4>
             </div>
-            <div className="d-flex justify-content-center ">
+            <div className="d-flex justify-content-center servicepadding">
               <img
                 src="./images/service36.jpg"
                 alt=""
                 style={{ width: "50%", boxShadow: "1px 2px 9px black" }}
               />
             </div>
-            <div className="d-flex justify-content-center  px-5 my-4 mt-5">
+            <div className="d-flex justify-content-center  px-5 my-4 mt-5 servicepadding">
               <h4 style={{ color: "#565387" }}>
                 <strong>DELINING AVERAGE LAND HOLDING SIZE:</strong>
               </h4>
             </div>
-            <div className="px-5 mx-5 ">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 The average farm size declined from 2.3 hectares (ha) in 1970-71
                 to 1.08 ha in 2015-16. The share of small and marginal farmers
                 increased from 70 per cent in 1980-81 to 86 per cent in 2015-16.
               </p>{" "}
             </div>
-            <ul className=" px-5  mx-5">
+            <ul className=" px-5  mx-5 servicepadding">
               <li className=" ">
                 FPOs can engage farmers in collective farming and address
                 productivity issues emanating from small farm sizes.
               </li>
-              <li className="py-2">
+              <li className="py-2 servicepadding">
                 Further, this may also result in additional employment
                 generation due to the increased intensity of farming.
               </li>
             </ul>
 
-            <div className="d-flex justify-content-center  px-5 my-2 mt-5">
+            <div className="d-flex justify-content-center  px-5 my-2 mt-5 servicepadding">
               <h4 style={{ color: "#565387" }}>
                 <strong>NEGOTIATING WITH CORPORATES</strong>
               </h4>
             </div>
-            <div className="px-5 mx-5 ">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 FPO can help farmers compete with large corporate enterprises in
                 bargaining, as it allows members to negotiate as a group and can
                 help small farmers in both input and output markets.
               </p>{" "}
             </div>
-            <div className=" px-5 mx-5 my-3 ">
+            <div className=" px-5 mx-5 my-3 servicepadding">
               <h5 style={{ color: "#565387" }}>
                 <strong>ECONOMICS OF AGGREGATION:</strong>
               </h5>
             </div>
-            <ul className=" px-5  mx-5">
+            <ul className=" px-5  mx-5 servicepadding">
               <li className="">
                 The FPO can provide low-cost and quality inputs to member
                 farmers. For example, loans for crops, purchase of machinery,
                 input agri-inputs (fertilizers, pesticides, etc.) and direct
                 marketing after procurement of agricultural produce.
               </li>
-              <li className="py-2">
+              <li className="py-2 servicepadding">
                 This will enable members to save in terms of time, transaction
                 costs, distress sales, price fluctuations, transportation,
                 quality maintenance, etc.
               </li>
             </ul>
-            <div className="d-flex justify-content-center  px-5 my-2 mt-5">
+            <div className="d-flex justify-content-center  px-5 my-2 mt-5 servicepadding">
               <h4 style={{ color: "#565387" }}>
                 <strong>SOCIAL IMPACT</strong>
               </h4>
             </div>
-            <ul className=" px-5  mx-5">
+            <ul className=" px-5  mx-5 servicepadding">
               <li className="py-2">
                 Social capital will develop in the form of FPOs, as it may lead
                 to improved gender relations and decision-making of women
@@ -176,7 +176,7 @@ function Fpo() {
                 nutritional values in the community.
               </li>
             </ul>
-            <div className="d-flex justify-content-center  px-5 my-4 mt-5">
+            <div className="d-flex justify-content-center  px-5 my-4 mt-5 servicepadding">
               <h4 style={{ color: "#565387" }}>
                 <strong>COLLECTIVE FARMING</strong>
               </h4>
@@ -187,8 +187,8 @@ function Fpo() {
                 alt=""
                 style={{ width: "50%", boxShadow: "1px 2px 9px black" }}
               />
-            </div>
-            <div className="px-5 mx-5 pt-5">
+            </div> 
+            <div className="px-5 mx-5 pt-5 servicepadding">
               <p>
                 FPOs can be used to augment the size of the land by focusing on
                 grouping contiguous tracts of land as far as possible.
@@ -200,7 +200,7 @@ function Fpo() {
               </p>{" "}
             </div>
            
-            <div className="d-flex justify-content-center p-5">
+            <div className="d-flex justify-content-center p-5 servicepadding">
               <img
                 src="./images/service38.jpg"
                 alt=""

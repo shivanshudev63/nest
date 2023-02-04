@@ -33,11 +33,11 @@ function JoinManagingTrustee() {
       </section>
       <section className="d-flex justify-content-center mb-5">
         <div
-          className="col-10 pt-5 px-5"
+          className="col-10 pt-5 px-5 paddedarea"
           style={{ boxShadow: "1px 2px 9px black", fontWeight: "bolder" }}
         >
           <div
-            className="d-flex justify-content-center px-5"
+            className="d-flex justify-content-center px-5 paddedarea"
             style={{ color: "#565387" }}
           >
             <h1>
@@ -45,7 +45,7 @@ function JoinManagingTrustee() {
             </h1>
           </div>
           <div
-            className="d-flex justify-content-center pt-4 pb-4"
+            className="d-flex justify-content-center pt-4 pb-4 managingimage"
             style={{ height: "50%" }}
           >
             <img
@@ -59,7 +59,7 @@ function JoinManagingTrustee() {
               <strong>JOINT MANAGING TRUSTEE</strong>
             </h5>
           </div>
-          <div className="px-5 mx-5 pt-3">
+          <div className="px-5 mx-5 pt-3 paddedarea">
             <p>
               Stellar accomplishments By Sri Narayan Jee and Later On His Team
               expanded the frontiers of knowledge and Efforts every day. In this

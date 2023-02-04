@@ -12,31 +12,31 @@ const Navbar1 = () => {
     <>
       <div className="container-fluid nav_bg " style={{ background: "white" }}>
         <div className="row upper">
-          <div className="col-10 mx-auto">
+          <div className="col-md-10  mx-auto ">
             <nav className="navbar upper navbar-default navbar-fixed-top">
               <div className="container">
-                <ul className="navbar-nav d-flex flex-row">
-                  <li>
+                <ul className="navbar-nav d-flex flex-row items">
+                  <li className="d-flex flex-row ">
                     <h5>
                       {" "}
-                      <i class="fa-brands fa-whatsapp pt-2"></i>
+                      <i class="fa-brands fa-whatsapp"></i>
+                      
                     </h5>
+                    <div>&nbsp;Call : +91-9899565492</div>
                   </li>
-                  <li className="nav-item p-2">
-                    <div>Call on: +91-9899565492</div>
-                  </li>
-                  <li>
+                  &nbsp;&nbsp;&nbsp;
+                  <li className="d-flex flex-row">
                     <h5>
                       {" "}
-                      <i class="fa-solid fa-clock pt-2"></i>
+                      <i class="fa-solid fa-clock"></i>
+                      
                     </h5>
+                    <div>&nbsp;Open Hours: Mon - Sat 10.00 am - 7.00 pm</div>
                   </li>
-                  <li className="nav-item p-2">
-                    <div>Open Hours: Mon - Sat 10.00 am - 7.00 pm</div>
-                  </li>
+                  
                 </ul>
 
-                <div className="ms-auto p-2">
+                <div className="ms-auto name">
                   Narayanjee Educational Service Trust
                 </div>
               </div>
@@ -49,7 +49,7 @@ const Navbar1 = () => {
               className="navbar  navbar-expand-lg "
               style={{ background: "white" }}
             >
-              <div className="container-fluid">
+              <div className="container-fluid second-layer">
                 <NavLink className="navbar-brand" to="/">
                   <img src={web} className="img-fluid" alt="" />
                 </NavLink>
@@ -77,6 +77,37 @@ const Navbar1 = () => {
                         to="/"
                       >
                         HOME
+                      </NavLink>
+                    </li>
+                    <li className="nav-item">
+                    <NavLink
+                        activeclassname="menu_active"
+                        className="nav-link mscreen"
+                        id="nav-dropdown"
+                        to="/mvv"
+                      >
+                        MISSION/VISSION/VALUES
+                      </NavLink>
+                    </li>
+                    
+                    <li className="nav-item">
+                    <NavLink
+                        activeclassname="menu_active"
+                        className="nav-link mscreen"
+                        id="nav-dropdown"
+                        to="/mvv"
+                      >
+                        ABOUT SRI NARAYAN JEE
+                      </NavLink>
+                    </li>
+                    <li className="nav-item">
+                    <NavLink
+                        activeclassname="menu_active"
+                        className="nav-link mscreen"
+                        id="nav-dropdown"
+                        to="/agroecological"
+                      >
+                      OUR SERVICES
                       </NavLink>
                     </li>
                     <li className="nav-item">

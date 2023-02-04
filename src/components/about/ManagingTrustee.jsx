@@ -18,7 +18,7 @@ function ManagingTrustee() {
                 }}
               ></div>
               <div className="text-on-image">
-                <h3 className="px-1">
+                <h3 className="px-1 ">
                   <strong>SHRI AMAR KUMAR SINHA</strong>
                 </h3>
                 <p>
@@ -34,24 +34,24 @@ function ManagingTrustee() {
       </section>
       <section className="d-flex justify-content-center mb-5">
         <div
-          className="col-10 pt-5 px-5"
+          className="col-10 pt-5 px-5 paddedarea"
           style={{ boxShadow: "1px 2px 9px black", fontWeight: "bolder" }}
         >
           <div
-            className="d-flex justify-content-center px-5"
+            className="d-flex justify-content-center px-5 paddedarea"
             style={{ color: "#565387" }}
           >
             <h1>
               <strong>SHRI AMAR KUMAR SINHA</strong>
             </h1>
           </div>
-          <div className="d-flex justify-content-center pt-4 pb-3" style={{height:"50%"}}>
+          <div className="d-flex justify-content-center pt-4 pb-3 managingimage" style={{height:"50%"}}>
             <img src={web} style={{ boxShadow: "1px 2px 9px black"}}  alt="Shri Amar Kumar Sinha" />
           </div>
           <div className="d-flex justify-content-center">
            <h5><strong>MANAGING TRUSTEE</strong></h5>
           </div>
-<div className="px-5 mx-5 pt-3">
+<div className="px-5 mx-5 pt-3 paddedarea">
           <p>
             Our Inspiration Sri Narayan Jee Lived His Life With The Belief That
             Meaningful Change In Society Requires Working Upwards, From The

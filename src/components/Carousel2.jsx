@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import homedata from './CarouselData2';
-import CarouselCard from "./CarouselCard";
+import CarouselCard from "./CarouselCard2";
 
 
 export default class Carousel2 extends Component {
@@ -16,7 +16,23 @@ export default class Carousel2 extends Component {
         autoplay: true,
         speed: 2000,
         autoplaySpeed: 3500,
-        cssEase: "linear"
+        cssEase: "linear", 
+        responsive: [
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 2,
+            }
+          },
+          {
+            breakpoint: 576,
+            settings: {
+              slidesToShow: 1,
+              autoplaySpeed: 3000,
+              speed:3000,
+            }
+          }
+        ]
       };
       return (
         <div style={{marginLeft:"2%"}}>

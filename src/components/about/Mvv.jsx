@@ -1,14 +1,14 @@
 import React from "react";
-
+import "./About.css"
 function Mvv() {
   return (
     <>
-      <section className=" d-flex align-items-center">
+      <section className="d-flex align-items-center">
         <div className="container-fluid nav_bg">
           <div className="row">
             <div className="col-12 px-0 mx-auto head-text">
               <div
-                className="col-md-12  header-img "
+                className="col-md-12 header-img"
                 style={{
                   background: "#565387",
                   height: "15rem",
@@ -32,11 +32,11 @@ function Mvv() {
       </section>
       <section className="d-flex justify-content-center mb-5">
         <div
-          className="col-10 pt-5 px-5"
+          className="col-12 pt-5 px-5 paddedarea"
           style={{ boxShadow: "1px 2px 9px black", fontWeight: "bolder" }}
         >
           <div
-            className="d-flex justify-content-center px-5"
+            className="d-flex justify-content-center px-5 paddedarea"
             style={{ color: "black" }}
           >
             <h3>
@@ -44,7 +44,7 @@ function Mvv() {
             </h3>
           </div>
           <div
-            className="d-flex justify-content-center px-5"
+            className="d-flex justify-content-center px-5 paddedarea"
             style={{ color: "#565387" }}
           >
             <h1 className="my-3">
@@ -52,7 +52,7 @@ function Mvv() {
             </h1>
           </div>
 
-          <div className="px-5 mx-5 pt-3">
+          <div className="px-5 mx-5 pt-3 paddedarea">
             <p>
               NEST is Founded on Inspiration from the Stellar accomplishments By
               Sri Narayan Jee Who have worked for Social Causes Since 1947. NEST
@@ -78,7 +78,7 @@ function Mvv() {
                         OUR MISSION
                       </th>
                       <th scope="col">
-                        <div className="px-5 mx-5">OUR VALUES</div>
+                        <div className="px-5 mx-5 value">OUR VALUES</div>
                       </th>
                     </tr>
                   </thead>

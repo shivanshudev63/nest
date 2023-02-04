@@ -3,6 +3,7 @@ import web from "../../images/bg_single_team-2.jpg";
 import "./Service.css";
 import ServiceMenu from "./ServiceMenu";
 import  Comment from "./Comment";
+import "./Service.css"
 
 function agroecological() {
   return (
@@ -10,16 +11,16 @@ function agroecological() {
       <section className=" d-flex align-items-center">
         <div className="container-fluid nav_bg">
           <div className="row">
-            <div className="col-12 px-0 mx-auto head-text">
+            <div className="col-12 px-0 mx-auto head-text servicetxt">
               <div
-                className="col-md-12  header-img "
+                className="col-md-12  header-img serviceimg"
                 style={{
                   boxShadow: "1px 2px 9px black",
                 }}
               >
                 <img src={web} className="img-fluid" alt="" />
               </div>
-              <div className="text-on-image">
+              <div className="text-on-image servicetxt">
                 <h3 className="px-1">
                   <strong>AGRO-ECOLOGICAL SERVICES</strong>
                 </h3>
@@ -35,11 +36,13 @@ function agroecological() {
           </div>
         </div>
       </section>
-      <section className="d-flex justify-content-center mb-5">
-        <div className="col-10 row">
-          {" "}
+      
+      <section className="d-flex justify-content-center mb-5 servicepadding servicewidth">
+        
+     <div className="col-10 row">
+          
           <div className="col-9" style={{ boxShadow: "1px 2px 9px black" }}>
-            <div className="d-flex justify-content-center pt-5">
+            <div className="d-flex justify-content-center pt-5 ">
               <h4 style={{ color: "#565387" }}>
                 <strong>AGRO-ECOLOGICAL SERVICES :</strong>
               </h4>
@@ -49,7 +52,7 @@ function agroecological() {
                 <strong>INTEGRATING ENVIRONMENTAL CARE WITH AGRICULTURE</strong>
               </h4>
             </div>
-            <div className="pt-3 px-5">
+            <div className="pt-3 px-5 servicepadding">
               <p>
                 Today’s food and agricultural systems have succeeded in
                 supplying large volumes of food to global markets. However,
@@ -85,10 +88,10 @@ function agroecological() {
                 discourse of international and UN institutions.
               </p>
             </div>
-            <div className="d-flex justify-content-center py-3">
+            <div className="d-flex justify-content-center py-3 servicecontentimg">
               <img src="./images/service1.png" alt="" />
             </div>
-            <div className="pt-3 px-5">
+            <div className="pt-3 px-5 servicepadding">
               <p>
                 In a context of a changing climate and growing concerns for more
                 healthy food systems, agro ecology is gaining momentum as a
@@ -108,11 +111,11 @@ function agroecological() {
                 ‘productive’ and ‘efficient’ agriculture.
               </p>
             </div>
-            <span className="pt-3 px-5">
+            <span className="pt-3 px-5 servicepadding">
               NEST has following 10 steps to address the services on
               agro-ecological services :-
             </span>
-            <div className="d-flex justify-content-center pt-3 px-5">
+            <div className="d-flex justify-content-center pt-3 px-5 servicepadding">
               <table class="table table-bordered">
                 <tbody>
                   <tr>
@@ -245,7 +248,7 @@ function agroecological() {
                 , provisioning, cultural and agricultural.
               </h6>
             </div>
-            <div className="pt-3 px-5">
+            <div className="pt-3 px-5 servicepadding servicetable">
               <table class="table table-bordered">
                 <thead>
                   <tr>
@@ -316,7 +319,7 @@ function agroecological() {
                 </tbody>
               </table>
             </div>
-            <div className=" py-5 mt-3 d-flex justify-content-center">
+            <div className=" py-5 mt-3 d-flex justify-content-center servicecontentimg">
               <img
                 style={{ boxShadow: "1px 2px 9px black" }}
                 src="./images/service2.png"
@@ -327,8 +330,12 @@ function agroecological() {
            
            <Comment />
           </div>
-          <ServiceMenu />
+          
+          <ServiceMenu  />
+         
+          
         </div>
+        
       </section>
     </>
   );

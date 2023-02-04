@@ -1,7 +1,7 @@
 import React from "react";
 import web from "../images/white_logo.png";
 import { NavLink } from "react-router-dom";
-
+import "./Footer.css"
 
 const Footer=()=>{
     return(
@@ -12,7 +12,7 @@ const Footer=()=>{
 
                 <div className='container-fluid nav_bg'>
 <div className='row'>
-<div className='col-10 d-flex'>
+<div className='col-10 d-flex fscreen'>
   <div className="col-7 pb-2">
   <NavLink  to="/">
                 <img src={web} className="img-fluid pt-5 " alt=""/>
@@ -33,11 +33,11 @@ Mon – Sat: 10:00 am – 7:00 pm
                 </div>
   </div>
   <div className="col-6 pt-5">
-  <div className="pt-5"></div>
-    <h1 className="pt-5">News & Updates</h1>
+  <div className="pt-5 f1screen"></div>
+    <h1 className="pt-5 f1screen">News & Updates</h1>
     <p>The latest Egovt news, articles, and resources sent to your inbox every month.</p>
-   <div className="d-flex justify-content-evenly w-50 mx-auto"> <button type="button" class="btn btn-danger p-1">Subscribe</button><form>
-  <div class="form-group p-1">
+   <div className="d-flex justify-content-evenly w-50 mx-auto f2screen"> <button type="button" class="btn btn-danger p-1">Subscribe</button><form>
+  <div className="form-group p-1 f2screen">
     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Email" />
   </div>
 </form>

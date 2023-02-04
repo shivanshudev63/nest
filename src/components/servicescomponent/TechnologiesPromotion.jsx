@@ -10,16 +10,16 @@ function TechnologiesPromotion() {
       <section className=" d-flex align-items-center">
         <div className="container-fluid nav_bg">
           <div className="row">
-            <div className="col-12 px-0 mx-auto head-text">
+            <div className="col-12 px-0 mx-auto head-text servicetxt">
               <div
-                className="col-md-12  header-img "
+                className="col-md-12  header-img serviceimg"
                 style={{
                   boxShadow: "1px 2px 9px black",
                 }}
               >
                 <img src={web} className="img-fluid" alt="" />
               </div>
-              <div className="text-on-image">
+              <div className="text-on-image servicetxt">
                 <h3 className="px-1">
                   <strong>TECHNOLOGIES PROMOTION</strong>
                 </h3>
@@ -35,11 +35,11 @@ function TechnologiesPromotion() {
           </div>
         </div>
       </section>
-      <section className="d-flex justify-content-center mb-5">
+      <section className="d-flex justify-content-center mb-5 servicepadding servicewidth">
         <div className="col-10 row">
           {" "}
           <div className="col-9" style={{ boxShadow: "1px 2px 9px black" }}>
-            <div className="d-flex text-center px-5 mx-5 my-4 pt-5">
+            <div className="d-flex text-center px-5 mx-5 my-4 pt-5 servicepadding">
               <h3 style={{ color: "#565387" }}>
                 <strong>
                   THIS SECTION OF NEST WORKS FOR SCIENTIST COMMUNITY
@@ -49,14 +49,14 @@ function TechnologiesPromotion() {
                 </strong>
               </h3>
             </div>
-            <div className="d-flex justify-content-center mt-5">
+            <div className="d-flex justify-content-center mt-5 servicepadding">
               <img
                 src="./images/service39.jpg"
                 alt=""
                 style={{ width: "50%" }}
               />
             </div>
-            <div className="d-flex justify-content-center px-5 mx-5 mt-5 ">
+            <div className="d-flex justify-content-center px-5 mx-5 mt-5 servicepadding">
               <h4 style={{ color: "#565387" }}>
                 <strong>
                   1.INSPIRE THROUGH FORGOTTEN SCIENTISTS WHO HAD GREATLY
@@ -64,7 +64,7 @@ function TechnologiesPromotion() {
                 </strong>
               </h4>
             </div>
-            <div className="px-5 mx-5 ">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 Modern-Day Technology Owes Immensely To Unsung Indian Scientists
                 Who Silently Pursued Their Groundbreaking Research In The Dimly
@@ -73,32 +73,32 @@ function TechnologiesPromotion() {
                 Political Unrest.
               </p>{" "}
             </div>
-            <div className=" px-5 mx-5 my-3 ">
+            <div className=" px-5 mx-5 my-3 servicepadding">
               <h5 style={{ color: "#565387" }}>
                 <strong>1. Shankar Abaji Bhisey</strong>
               </h5>
             </div>
-            <div className="d-flex justify-content-center mt-5">
+            <div className="d-flex justify-content-center mt-5 servicepadding">
               <img
                 src="./images/service40.jpg"
                 alt=""
                 style={{ width: "50%" }}
               />
             </div>
-            <div className="px-5 mx-5 mt-4 ">
+            <div className="px-5 mx-5 mt-4 servicepadding">
               <p>
                 Born only a decade after the Sepoy Mutiny of 1857, Shankar Abaji
                 Bhisey was a child prodigy who designed an indoor coal-gas
                 generator, when he was only 14.
               </p>{" "}
             </div>
-            <div className="px-5 mx-5 ">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 Hailing from Bombay, the brilliant researcher seemingly got his
                 early exposure to global science through science magazines.
               </p>{" "}
             </div>
-            <div className="px-5 mx-5 ">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 By his early 20s, he had already invented electrical bicycle
                 contraptions, a station indicator for Bombay’s suburban railway
@@ -107,7 +107,7 @@ function TechnologiesPromotion() {
                 contest.
               </p>{" "}
             </div>
-            <div className="px-5 mx-5 ">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 However, Bhisey is most recognised for his iconic Bhisotype, a
                 type-casting machine that revolutionised the printing industry.
@@ -118,7 +118,7 @@ function TechnologiesPromotion() {
                 his technical prowess.
               </p>{" "}
             </div>
-            <div className="px-5 mx-5">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 Throughout his career, Bhisey had 200 inventions and 40 patents
                 to his name, which include a unique telephone model, kitchen
@@ -131,26 +131,26 @@ function TechnologiesPromotion() {
                 of 68.
               </p>{" "}
             </div>
-            <div className="d-flex justify-content-center mt-5">
+            <div className="d-flex justify-content-center mt-5 servicepadding">
               <img
                 src="./images/service41.jpg"
                 alt=""
                 style={{ width: "75%", boxShadow: "1px 2px 9px black" }}
               />
             </div>
-            <div className=" px-5 mx-5 mt-5 ">
+            <div className=" px-5 mx-5 mt-5 servicepadding">
               <h4 style={{ color: "#565387" }}>
                 <strong>2.Gopalswamy Doraiswamy Naidu</strong>
               </h4>
             </div>
-            <div className="d-flex justify-content-center mt-5">
+            <div className="d-flex justify-content-center mt-5 servicepadding">
               <img
                 src="./images/service42.jpeg"
                 alt=""
                 style={{ width: "50%" }}
               />
             </div>
-            <div className="px-5 mx-5 mt-3">
+            <div className="px-5 mx-5 mt-3 servicepadding">
               <p>
                 Revered as the ‘Edison of India,’ and “the wealth creator of
                 Coimbatore” He is also called as “Miracle Man”! GD Naidu is
@@ -164,7 +164,7 @@ function TechnologiesPromotion() {
                 detested the curriculum at school.
               </p>{" "}
             </div>
-            <div className="px-5 mx-5">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 Born on 23 March 1893, Naidu lost his mother at birth. After
                 dropping out of school, the young boy assisted his father on his
@@ -174,7 +174,7 @@ function TechnologiesPromotion() {
                 three years and saved money to buy this bike.{" "}
               </p>{" "}
             </div>
-            <div className="px-5 mx-5">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 After owning the bike, he did not set out on a joy ride.
                 Instead, he chose to dismantle its parts and study the internal
@@ -188,19 +188,19 @@ function TechnologiesPromotion() {
                 away on 4 January 1974.{" "}
               </p>{" "}
             </div>
-            <div className=" px-5 mx-5 mt-5 ">
+            <div className=" px-5 mx-5 mt-5 servicepadding">
               <h4 style={{ color: "#565387" }}>
                 <strong>3. Anna Mani</strong>
               </h4>
             </div>
-            <div className="d-flex justify-content-center mt-5">
+            <div className="d-flex justify-content-center mt-5 servicepadding">
               <img
                 src="./images/service43.jpg"
                 alt=""
                 style={{ width: "50%" }}
               />
             </div>
-            <div className="px-5 mx-5 mt-3">
+            <div className="px-5 mx-5 mt-3 servicepadding">
               <p>
                 Back in the days when women were barely visible in the
                 scientific domain, Anna Modayil Mani from Travancore, Kerala,
@@ -212,7 +212,7 @@ function TechnologiesPromotion() {
                 solar radiation.
               </p>{" "}
             </div>
-            <div className="px-5 mx-5">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 She also pioneered the research to utilise solar and wind power
                 as renewable sources of energy and set up her instruments in
@@ -220,7 +220,7 @@ function TechnologiesPromotion() {
                 apparatus ‘ozonesonde’ is also strikingly remarkable.
               </p>{" "}
             </div>
-            <div className="px-5 mx-5">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 Mani was born in 1918 to an affluent family, and displayed
                 immense interest in reading and learning from her childhood. On
@@ -228,7 +228,7 @@ function TechnologiesPromotion() {
                 opted for a set of Encyclopaedia Britannica instead.
               </p>{" "}
             </div>
-            <div className="px-5 mx-5">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 Inspired by Gandhiji’s principles and the ideals of Vaikom
                 Satyagraha, Mani started wearing only khadi garments to express
@@ -238,7 +238,7 @@ function TechnologiesPromotion() {
                 degree in Physics at Presidency College in Madras (Chennai).
               </p>{" "}
             </div>
-            <div className="px-5 mx-5">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 Later, she landed the opportunity to work as a researcher in
                 Nobel Laureate Sir CV Raman’s laboratory. Despite her detailed
@@ -247,14 +247,14 @@ function TechnologiesPromotion() {
                 degree.
               </p>{" "}
             </div>
-            <div className="px-5 mx-5">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 Undeterred, she used her scholarship savings to head to Imperial
                 College in London to pursue higher physics research and later
                 specialised in meteorological instrumentation.
               </p>{" "}
             </div>
-            <div className="px-5 mx-5">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 Mani returned to a newly independent India in 1948 and designed
                 radiation instrumentation from scratch at Indian Meteorological
@@ -263,25 +263,25 @@ function TechnologiesPromotion() {
                 Thumba rocket launching facility.{" "}
               </p>{" "}
             </div>
-            <div className="px-5 mx-5">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 Following a paralysing stroke in 1994, Anna Mani breathed her
                 last on 16 August 2001.
               </p>{" "}
             </div>
-            <div className=" px-5 mx-5 mt-5 ">
+            <div className=" px-5 mx-5 mt-5 servicepadding">
               <h4 style={{ color: "#565387" }}>
                 <strong>4. Narinder Singh Kapany</strong>
               </h4>
             </div>
-            <div className="d-flex justify-content-center mt-5">
+            <div className="d-flex justify-content-center mt-5 servicepadding">
               <img
                 src="./images/service44.jpg"
                 alt=""
                 style={{ width: "50%" }}
               />
             </div>
-            <div className="px-5 mx-5 mt-3">
+            <div className="px-5 mx-5 mt-3 servicepadding">
               <p>
                 Considered the ‘Father of Fibre Optics’, this Punjab-born
                 scientist’s glorifying discovery of communication through
@@ -289,14 +289,14 @@ function TechnologiesPromotion() {
                 medical marvels like laser surgeries or endoscopic imaging.
               </p>{" "}
             </div>
-            <div className="px-5 mx-5">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 Unfortunately, Kapany’s contribution was grossly overlooked for
                 Nobel Prize when Charles Kuen Kao was awarded the honour for
                 furthering on Kapany’s discovery.
               </p>{" "}
             </div>
-            <div className="px-5 mx-5">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 Born in 1927 to a Sikh family in Moga, Punjab, Kapany studied at
                 the University of Agra and later joined Imperial College, London
@@ -304,7 +304,7 @@ function TechnologiesPromotion() {
               </p>{" "}
             </div>
 
-            <div className="px-5 mx-5">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 It was during his PhD at this institution that Kapany succeeded
                 in transmitting images over a bundle of optical fibres and
@@ -313,7 +313,7 @@ function TechnologiesPromotion() {
               </p>{" "}
             </div>
 
-            <div className="px-5 mx-5">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 He joined the University of Rochester as a faculty member and
                 later went on to become a successful entrepreneur in Silicon
@@ -322,14 +322,14 @@ function TechnologiesPromotion() {
                 organisation called the Sikh Foundation.
               </p>{" "}
             </div>
-            <div className=" px-5 mx-5 my-3 mt-5">
+            <div className=" px-5 mx-5 my-3 mt-5 servicepadding">
               <h4 style={{ color: "#565387" }}>
                 <strong>5. Dr Nautam Bhatt</strong>
               </h4>
             </div>
             <div className="d-flex justify-content-center">
               <div>
-                <div className="px-5 mx-5">
+                <div className="px-5 mx-5 servicepadding">
                   <p>
                     This Padma Shri physicist’s name rarely features in the list
                     of top Indian scientists though his contribution continues
@@ -337,7 +337,7 @@ function TechnologiesPromotion() {
                     in India.
                   </p>{" "}
                 </div>
-                <div className="px-5 mx-5">
+                <div className="px-5 mx-5 servicepadding">
                   <p>
                     The founding director of Solid State Physics Laboratory,
                     Delhi, attained unprecedented heights in defence research in
@@ -347,7 +347,7 @@ function TechnologiesPromotion() {
                     India’s defence domain.
                   </p>{" "}
                 </div>
-                <div className="px-5 mx-5">
+                <div className="px-5 mx-5 servicepadding">
                   <p>
                     Born in 1909 in Gujarat’s Jamnagar, Bhatt obtained his
                     Master’s degree in Physics under the supervision of the
@@ -357,14 +357,14 @@ function TechnologiesPromotion() {
                     professor in IISc.
                   </p>{" "}
                 </div>
-                <div className="px-5 mx-5">
+                <div className="px-5 mx-5 servicepadding">
                   <p>
                     Just after Independence, in 1949, he was inducted into the
                     Defence Science Organization in Delhi, where he presented
                     his most fascinating innovations.
                   </p>{" "}
                 </div>
-                <div className="px-5 mx-5">
+                <div className="px-5 mx-5 servicepadding">
                   <p>
                     Although most of his work is under the wraps owing to the
                     strict confidentiality protocols of Defence Science
@@ -373,19 +373,19 @@ function TechnologiesPromotion() {
                   </p>{" "}
                 </div>
               </div>
-              <div className="col-4">
+              <div className="col-4 hideservice">
                 <img src="./images/service45.jpg" alt="" />
               </div>
             </div>
 
-            <div className="px-5 my-4 mx-5">
+            <div className="px-5 my-4 mx-5 servicepadding">
               <h5 style={{ color: "#565387" }}>
                 <strong>
                   His Major Contributions for science and technology are:
                 </strong>
               </h5>
             </div>
-            <ul className=" px-5  mx-5">
+            <ul className=" px-5  mx-5 servicepadding">
               <li className=" ">
                 Development and deployment of the VT Fuse for the Department of
                 Defense in the mid-1960s.
@@ -413,7 +413,7 @@ function TechnologiesPromotion() {
               </li>
             </ul>
 
-            <div className="px-5 mx-5 ">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 In 1969 he was awarded the prestigious Padma Shri Award by
                 Indian President Zakir Hussain for his great work in the field
@@ -424,7 +424,7 @@ function TechnologiesPromotion() {
                 member of the Bharatiya Kala Kendra, New Delhi.
               </p>{" "}
             </div>
-            <div className="px-5 mx-5 ">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 A patron and practitioner of Hindustani Classical Music, Dr
                 Bhatt designed the acoustical features of 70 mm theatres in
@@ -435,10 +435,10 @@ function TechnologiesPromotion() {
               </p>{" "}
             </div>
 
-            <div className="px-5 mx-5 ">
+            <div className="px-5 mx-5 servicepadding">
               <p>Dr Nautam Bhatt passed away in 2005.</p>{" "}
             </div>
-            <div className="d-flex justify-content-center  px-5 mx-5  my-4 mt-5">
+            <div className="d-flex justify-content-center  px-5 mx-5  my-4 mt-5 servicepadding">
               <h5 style={{ color: "#565387" }}>
                 <strong>
                   NEST to create awareness related to the 20 challenges for
@@ -449,7 +449,7 @@ function TechnologiesPromotion() {
                 </strong>
               </h5>
             </div>
-            <div className="mx-5 px-5 my-4 mt-5">
+            <div className="mx-5 px-5 my-4 mt-5 servicepadding">
               <h4 style={{ color: "#565387" }}>
                 <strong>
                   THESE ARE THE LIST OF AREAS TO BE WORKED UPON WHICH ARE THE
@@ -705,7 +705,7 @@ function TechnologiesPromotion() {
                 <strong>15. DRONE TECHNOLOGY</strong>
               </h5>
             </div>
-            <div className="px-5 mx-5 ">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 NEST in collaboration with it’s Associates are privileged to
                 connect with many tech including Swarm Drone, Farm Assessment &
@@ -713,7 +713,7 @@ function TechnologiesPromotion() {
                 assessment, Data Science and the areas are growing by the day.
               </p>{" "}
             </div>
-            <div className="px-5 mx-5">
+            <div className="px-5 mx-5 servicepadding hideservice">
               <table class="table table-bordered ">
                 <thead>
                   <tr>
@@ -770,26 +770,26 @@ function TechnologiesPromotion() {
             <div className="d-flex justify-content-center">
               <img src="/images/sevice63.jpg" alt="" style={{ width: "50%" }} />
             </div>
-            <div className="px-5 mx-5 pt-4">
+            <div className="px-5 mx-5 pt-4 servicepadding">
               <p>
                 Acquire images from with our Fixed Wing or Multirotor drones
                 using very high end Multi or Hyper Spectral Cameras.
               </p>{" "}
             </div>
-            <div className="px-5 mx-5 ">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 Analyze and prepare an action plan based on the type of crop,
                 phase of the crop& the season.
               </p>{" "}
             </div>
-            <div className="px-5 mx-5 ">
+            <div className="px-5 mx-5 servicepadding">
               <p>
                 Act on the actionable intelligence provided by our experts, this
                 action plan will be specific to the farm and will be classified
                 area wise.
               </p>{" "}
             </div>
-            <div className="d-flex justify-content-center  px-5 mx-5  my-4">
+            <div className="d-flex justify-content-center  px-5 mx-5  my-4 servicepadding">
               <h5 style={{ color: "#565387" }}>
                 <strong>
                 16. NEST is Promoting Use Of MICROBIOLOGY to Assist the Farmers and Improving Environment and its impact On Agricultural Sector.
@@ -810,7 +810,7 @@ AN OVERVIEW MIXED MICROBIAL CULTURE TECHNOLOGY
 
 </strong></h6>
             </div>
-            <div className="mx-5 px-5 mt-5">
+            <div className="mx-5 px-5 mt-5 servicepadding">
               <p>MIXED MICROBIAL CULTURE system includes the use of MIXED MICROBIAL CULTURE Solution</p>
             </div>
             <div className="d-flex justify-content-center">
@@ -831,18 +831,18 @@ AN OVERVIEW MIXED MICROBIAL CULTURE TECHNOLOGY
               />
             </div>
             <div className="row d-flex justify-content-center"><span className="col-3 d-flex justify-content-center">Fungi</span><span className="col-3 d-flex justify-content-center">Bacteria</span><span className="col-3 d-flex justify-content-center">Actinomycetes</span> </div>
-<div className="d-flex justify-content-center pt-3"><strong>GIVES</strong></div>
-<div className="d-flex justify-content-center px-5"><p>A useful combination of co-existing beneficial dominated microbes such as,Fungi, Bacteria &Actinomycetes</p></div>
-<div className="d-flex justify-content-center px-5 mx-5"><p>This is the system to avoid chemical fertilizers & pesticides and also to utilize the positive microorganisms to improve the soil quality & soil health. This is not an agrochemical, so it should not be treated as such. It is a living substance, & does not contain any genetically engineered microorganism. This is a mixture of such microbial inoculums, which are found in all ecosystems throughout the world.</p></div>
-<div className="d-flex justify-content-center px-5 mx-5"><p>The MIXED MICROBIAL CULTURE Technology can be applied to almost any application, where nature is involved. It has already been applied to Agriculture, Land Remediation, Animal Husbandry, Poultry, Salinity Reduction, Aquaculture and Solid Waste Management etc. The trials are going on for Industrial Effluent Treatment, Industrial Solid Waste Treatment and Potable Water Treatment etc. We are also working for the food products based on the MIXED MICROBIAL CULTURE Technology, for Human consumption.</p></div>
-<div className="d-flex justify-content-center  px-5 mx-5  my-4">
+<div className="d-flex justify-content-center pt-3 servicepadding"><strong>GIVES</strong></div>
+<div className="d-flex justify-content-center px-5 servicepadding"><p>A useful combination of co-existing beneficial dominated microbes such as,Fungi, Bacteria &Actinomycetes</p></div>
+<div className="d-flex justify-content-center px-5 mx-5 servicepadding"><p>This is the system to avoid chemical fertilizers & pesticides and also to utilize the positive microorganisms to improve the soil quality & soil health. This is not an agrochemical, so it should not be treated as such. It is a living substance, & does not contain any genetically engineered microorganism. This is a mixture of such microbial inoculums, which are found in all ecosystems throughout the world.</p></div>
+<div className="d-flex justify-content-center px-5 mx-5 servicepadding"><p>The MIXED MICROBIAL CULTURE Technology can be applied to almost any application, where nature is involved. It has already been applied to Agriculture, Land Remediation, Animal Husbandry, Poultry, Salinity Reduction, Aquaculture and Solid Waste Management etc. The trials are going on for Industrial Effluent Treatment, Industrial Solid Waste Treatment and Potable Water Treatment etc. We are also working for the food products based on the MIXED MICROBIAL CULTURE Technology, for Human consumption.</p></div>
+<div className="d-flex justify-content-center  px-5 mx-5 servicepadding  my-4">
               <h4 style={{ color: "#565387" }}>
                 <strong>
                 Special features of MIXED MICROBIAL CULTURE System
                 </strong>
               </h4>
             </div>
-           <div className="px-5 mx-5">
+           <div className="px-5 mx-5 servicepadding">
            <table class="table table-bordered ">
   
   <tbody>
@@ -923,11 +923,11 @@ AN OVERVIEW MIXED MICROBIAL CULTURE TECHNOLOGY
   </tbody>
 </table>
            </div>
-<div className="d-flex justify-content-center pt-5">
+<div className="d-flex justify-content-center pt-5 servicepadding hideservice">
   <h5 style={{ color: "#565387" }}><strong>COMPARATIVE ANALYSIS</strong>
 </h5>
 </div>
-<div className="mx-5 px-5 d-flex justify-content-center pt-3"><table class="table table-bordered">
+<div className="mx-5 px-5 d-flex justify-content-center pt-3 servicepadding hideservice"><table class="table table-bordered">
   <thead>
     <tr>
       <th scope="col"></th>

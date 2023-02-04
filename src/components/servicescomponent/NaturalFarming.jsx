@@ -10,16 +10,16 @@ function NaturalFarming() {
       <section className=" d-flex align-items-center">
         <div className="container-fluid nav_bg">
           <div className="row">
-            <div className="col-12 px-0 mx-auto head-text">
+            <div className="col-12 px-0 mx-auto head-text servicetxt">
               <div
-                className="col-md-12  header-img "
+                className="col-md-12  header-img serviceimg"
                 style={{
                   boxShadow: "1px 2px 9px black",
                 }}
               >
                 <img src={web} className="img-fluid" alt="" />
               </div>
-              <div className="text-on-image">
+              <div className="text-on-image servicetxt">
                 <h3 className="px-1">
                   <strong>NATURAL FARMING</strong>
                 </h3>
@@ -35,11 +35,11 @@ function NaturalFarming() {
           </div>
         </div>
       </section>
-      <section className="d-flex justify-content-center mb-5">
+      <section className="d-flex justify-content-center mb-5 servicepadding servicewidth">
         <div className="col-10 row">
           {" "}
           <div className="col-9" style={{ boxShadow: "1px 2px 9px black" }}>
-            <div className="d-flex text-center pt-5 pt-3 px-5 m-5">
+            <div className="d-flex text-center pt-5 pt-3 px-5 m-5  servicepadding">
               <h4 style={{ color: "#565387" }}>
                 <strong>
                   NEST IS DEDICATED TO PROMOTE ZERO BUDGET NATURAL FARMING (
@@ -54,11 +54,11 @@ function NaturalFarming() {
                 style={{ width: "50%", boxShadow: "1px 2px 9px black" }}
               />
             </div>
-            <h5 className=" px-5  mt-5 mx-5">
+            <h5 className=" px-5  mt-5 mx-5 servicepadding">
               Zero budget natural farming is a method of chemical-free
               agriculture drawing from traditional Indian practices.
             </h5>
-            <ul className=" px-5  mt-3 mx-5">
+            <ul className=" px-5  mt-3 mx-5 servicepadding">
               <li className="py-2">
                 It was originally promoted by agriculturist Subhash Palekar, who
                 developed it in the mid-1990s as an alternative to the Green
@@ -73,7 +73,7 @@ function NaturalFarming() {
                 return to a pre-green revolution style of farming.
               </li>
             </ul>
-            <h5 className="px-5 m-5">
+            <h5 className="px-5 m-5 servicepadding">
               It claims that there is no need for expensive inputs such as
               fertilisers, pesticides and intensive irrigation.
             </h5>
@@ -84,7 +84,7 @@ function NaturalFarming() {
                 style={{ width: "50%", boxShadow: "1px 2px 9px black" }}
               />
             </div>
-            <div className="px-5 m-5">
+            <div className="px-5 m-5 servicepadding">
               <p className=" d-flex text-center">
                 Subash Palekar (Indian Agriculturist and Padma Shri Recipient)
                 is the father of Zero Budget Natural Farming (ZBNF). He
@@ -101,12 +101,12 @@ function NaturalFarming() {
                 both profitable and sustainable.
               </p>{" "}
             </div>
-            <div className="d-flex justify-content-center pt-5 px-5 ">
+            <div className="d-flex justify-content-center pt-5 px-5 servicepadding">
               <h4 style={{ color: "#565387" }}>
                 <strong>ZBNF IS BASED ON 4 PILLAR</strong>
               </h4>
             </div>
-            <ul className=" px-5 mt-3 mx-5">
+            <ul className=" px-5 mt-3 mx-5 servicepadding">
               <li className="py-2">
                 <strong>Jeevamrutha:</strong> It is a mixture of fresh cow dung
                 and aged cow urine (both from India’s indigenous cow breed),
@@ -134,14 +134,14 @@ function NaturalFarming() {
                 style={{ width: "50%", boxShadow: "1px 2px 9px black" }}
               />
             </div>
-            <div className="d-flex justify-content-center pt-5 px-5 ">
+            <div className="d-flex justify-content-center pt-5 px-5 servicepadding">
               <h4 style={{ color: "#565387" }}>
                 <strong>
                   BENEFITS OF ZBNF ( ZERO BUDGET NATURAL FARMING )
                 </strong>
               </h4>
             </div>
-            <div className="px-5 m-5">
+            <div className="px-5 m-5 servicepadding">
               <p className=" d-flex text-center">
                 With the rising cost of external inputs (fertilizers and
                 pesticides), which is the leading cause of indebtedness and
@@ -151,7 +151,7 @@ function NaturalFarming() {
                 debt.
               </p>{" "}
             </div>
-            <ul className="px-5 m-5">
+            <ul className="px-5 m-5 servicepadding">
               <li className="py-2">Since in ZBNF there is the need to spend money or take loans for external inputs, the cost of production could be reduced and farming made into a “zero budget” exercise.</li>
               <li className="py-2">This would break the debt cycle for many small farmers and help to envisage the doubling of farmer’s income by 2022.</li>
               <li className="py-2">At a time when chemical-intensive farming is resulting in soil and environmental degradation, a zero-cost environmentally-friendly farming method is definitely a timely initiative.

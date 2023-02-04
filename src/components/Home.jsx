@@ -21,6 +21,7 @@ import Carousel3 from "./Carousel3";
 import YoutubeEmbed from "./YoutubeEmbed";
 import "../index.css";
 
+
 function Home() {
   return (
     <>
@@ -32,10 +33,26 @@ function Home() {
           <HomeCarousel />
         </div>
 
-        <div className="container mt-5 pt-5">
+
+        <div className="container mt-5 pt-5 mx-5 m4screen d-flex justify-content-center">
           <div className="row pt-5">
-            <div className="col-10 mx-auto d-flex justify-content-evenly">
-              <div className="col-5 mt-5 mb-3" style={{ position: "relative" }}>
+        <div className="mt-5 ">
+                  <span style={{ color: "orange" }}>
+                    <h5>
+                      <strong>Our Poject Mission</strong>
+                    </h5>
+                  </span>
+                  <h1  style={{ color: "#565387" }}>
+                    <strong>TODAY...TOWARDS... TOMMORROW</strong>
+                  </h1>
+                </div>
+</div>
+</div>
+
+        <div className="container mt-5 pt-5 m5screen ">
+          <div className="row pt-5 m6screen">
+            <div className="col-md-10 mx-auto d-flex justify-content-evenly ">
+              <div className="col-5 mt-5 mb-3 m6screen" style={{ position: "relative" }}>
                 <a href="https://www.youtube.com/watch?v=iYy6wzkwaGg&t=121s">
                   <img src={web1} className="img-fluid" alt="" />
                 </a>
@@ -57,8 +74,10 @@ function Home() {
                 </div>
               </div>
 
-              <div className="col-5 mt-5 ">
-                <div className="mt-5">
+              
+
+              <div className="col-5 mt-5 m6screen">
+                <div className="mt-5 m3screen">
                   <span style={{ color: "orange" }}>
                     <h5>
                       <strong>Our Poject Mission</strong>
@@ -68,7 +87,7 @@ function Home() {
                     <strong>TODAY...TOWARDS... TOMMORROW</strong>
                   </h1>
                 </div>
-                <div>
+                <div >
                   <Carousel />
                 </div>
                 <div className="py-5">
@@ -97,7 +116,7 @@ function Home() {
         </div>
 
         <div
-          className="d-flex justify-content-center mt-5 mx-5 py-5"
+          className=" m7screen d-flex justify-content-center mt-5 mx-5 py-5"
           style={{ boxShadow: "1px 2px 9px grey" }}
         >
           <div
@@ -153,11 +172,11 @@ function Home() {
         </div>
 
         <div
-          className="m-5 py-5 row"
+          className="m-5 py-5 row m8screen"
           style={{ background: "#565387 ", boxShadow: "1px 2px 9px black" }}
         >
           <h1
-            className="d-flex justify-content-center"
+            className="d-flex justify-content-center "
             style={{ color: "white", fontWeight: "bolder" }}
           >
             PROJECT ASHWINI
@@ -181,7 +200,7 @@ function Home() {
           </div>
         </div>
         <div
-          className="m-5 py-5 row"
+          className="m-5 py-5 row m8screen"
           style={{ background: "#565387 ", boxShadow: "1px 2px 9px black" }}
         >
           <h1
@@ -209,7 +228,7 @@ function Home() {
           </div>
         </div>
         <div
-          className="m-5 pt-5 row"
+          className="m-5 pt-5 row m8screen"
           style={{ background: "#565387 ", boxShadow: "1px 2px 9px black" }}
         >
           <h1
@@ -218,7 +237,7 @@ function Home() {
           >
             PROJECT AVINASH
           </h1>
-          <div className="col-8 d-flex justify-content-center">
+          <div className="col-8 d-flex justify-content-center m8screen">
             <div
               class="card m-5"
               style={{
@@ -309,8 +328,8 @@ function Home() {
           </div>
         </div>
 
-        <div className="row col-10 m-5 d-flex justify-content-center">
-          <div className="col-9">
+        <div className="row col-md-10 col-xs-12 m-5 d-flex justify-content-center m1screen">
+          <div className="col-md-9">
             <h4 className="d-flex justify-content-center">
               <strong>EDUCATION</strong>
             </h4>
@@ -336,10 +355,10 @@ function Home() {
               evolve as a better citizen.
             </p>
           </div>
-          <div className="col-3">
+          <div className="col-md-3 m2screen">
             <img
               src={web9}
-              className="img-fluid mx-5  "
+              className="img-fluid mx-5"
               style={{
                 height: "20rem",
                 borderRadius: "5px"
@@ -348,7 +367,7 @@ function Home() {
             />
           </div>
         </div>
-        <div className=" mt-5 d-flex justify-content-center">
+        <div className=" mt-5 d-flex justify-content-center m9screen">
           <div class="card mt-5" style={{ width: "18rem", height: "13rem" }}>
            <a href="/technologiespromotion"> <img
               class="card-img-top"

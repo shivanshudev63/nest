@@ -16,7 +16,23 @@ export default class Carousel4 extends Component {
         autoplay: true,
         speed: 2000,
         autoplaySpeed: 3500,
-        cssEase: "linear"
+        cssEase: "linear", 
+        responsive: [
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 2,
+            }
+          },
+          {
+            breakpoint: 576,
+            settings: {
+              slidesToShow: 1,
+              autoplaySpeed: 3000,
+              speed:3000,
+            }
+          }
+        ]
       };
       return (
         <div style={{marginLeft:"3%"}}>

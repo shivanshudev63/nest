@@ -17,3 +17,59 @@ a{
     color: black;
     text-decoration: none;
 }
+
+
+@media screen and (min-width: 600px)
+
+{
+  .smallscreenservice{
+      display: none !important;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .serviceimg{
+        height: 100px !important;
+        /* margin-top: 50px; */
+    }
+.serviceimg img{
+    height: 100px;
+}
+.servicetxt {
+    bottom:0%;
+    top:20%;
+    padding-right:50px;
+    font-size: 15px;
+}
+.servicepadding{
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-top:5px !important;
+}
+.servicemenu{
+    font-size: x-small !important;
+    width: 300px;
+}
+.servicecontentimg img{
+    height: 300px !important;
+    width: 300px !important;
+}
+.hideservice{
+    display: none !important;
+}
+.servicewidth{
+    width: 500px;
+}
+.servicetable{
+    font-size: x-small;
+}
+.smallservicemenu{
+    width: 200px !important;
+}
+.hideservice{
+    display: none !important;
+}
+}
